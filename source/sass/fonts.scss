@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MPLUS1p-Regular";
+  font-weight: 400;
+  font-display: swap;
+
+  src: local("MPLUS1p-Regular"), local("MPLUS1p Regular"), url("../fonts/MPLUS1p-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MPLUS1p-Medium";
+  font-weight: 500;
+  font-display: swap;
+
+  src: local("MPLUS1p-Medium"), local("MPLUS1p Medium"), url("../fonts/MPLUS1p-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Golos-UI_Regular";
+  font-weight: 400;
+  font-display: swap;
+
+  src: local("Golos-UI_Regular"), local("Golos-UI Regular"), url("../fonts/Golos-UI_Regular.woff") format("woff");
+}

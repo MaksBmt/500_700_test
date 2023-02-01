@@ -1,0 +1,25 @@
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.news {
+  .slick-slide img {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+
+    @media(min-width: 920px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .slick-slide {
+    margin-right: 20px;
+
+    @media(min-width: 920px) {
+      margin-right: 0;
+    }
+  }
+}
+

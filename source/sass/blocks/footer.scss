@@ -1,0 +1,84 @@
+.footer {
+  background-color: $bg-common;
+  color: $white;
+}
+
+.footer__wrap {
+  padding: 0 15px;
+  padding-top: 80px;
+  padding-bottom: 165px;
+
+  @media(min-width: $md) {
+    padding: 0 55px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  @media(min-width: $lg) {
+    display: grid;
+    grid-template-columns: 519px auto;
+    grid-template-rows: 34px auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.footer__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-family: "MPLUS1p-Medium";
+  font-size: 16px;
+  line-height: 24px;
+
+  @media(min-width: $lg) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+.footer__text {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-family: "MPLUS1p-Medium";
+  font-size: 14px;
+  line-height: 21px;
+
+  @media(min-width: $lg) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400px;
+  }
+}
+
+.footer__link {
+  display: block;
+  text-decoration: underline $white;
+  color: $white;
+  cursor: pointer;
+  margin-bottom: 40px;
+
+  font-family: "MPLUS1p-Medium";
+  font-size: 14px;
+  line-height: 21px;
+
+  @media(min-width: $lg) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+}
+
+.footer__messengers {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media(min-width: $lg) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    margin-left: 0;
+    width: 170px;
+  }
+}

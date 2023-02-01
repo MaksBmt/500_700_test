@@ -1,0 +1,30 @@
+.messengers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-left: 0;
+  list-style: none;
+
+  @media(min-width: $md) {
+    margin-top: 0;
+  }
+}
+
+.messengers__link {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+
+.messengers__img {
+  width: 28px;
+  height: 28px;
+  fill: $white;
+
+  &:hover {
+    fill: rgb(177, 161, 161);
+  }
+}
+
+
